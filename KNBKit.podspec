@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.source_files  = "KNBKit", "KNBKit/**/*.{h,m}"
   s.public_header_files = "KNBKit/**/*.h"
 
+  s.frameworks            = 'XCTest'
+  s.user_target_xcconfig  = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
   
