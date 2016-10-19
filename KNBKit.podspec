@@ -22,5 +22,6 @@ Pod::Spec.new do |s|
   s.dependency "libextobjc"
   s.dependency "Masonry"
   s.dependency "SDWebImage"
-  s.dependency "LLSimpleCamera", "~> 4.2.0"
+  # s.dependency "LLSimpleCamera", "~> 4.2.0"
+  s.dependency "LLSimpleCamera"
 end
