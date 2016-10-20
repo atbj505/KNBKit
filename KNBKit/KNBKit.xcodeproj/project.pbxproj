@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2283EB71E938AECE334F8D5D /* libPods-KNBKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4552B77644A3C569AC6A21CB /* libPods-KNBKitTests.a */; };
 		57E2A25C1DB5FB530029E35D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E2A25B1DB5FB530029E35D /* main.m */; };
 		57E2A25F1DB5FB530029E35D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E2A25E1DB5FB530029E35D /* AppDelegate.m */; };
 		57E2A2621DB5FB530029E35D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E2A2611DB5FB530029E35D /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		57E2A26A1DB5FB530029E35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E2A2691DB5FB530029E35D /* Assets.xcassets */; };
 		57E2A26D1DB5FB530029E35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E2A26B1DB5FB530029E35D /* LaunchScreen.storyboard */; };
 		57E2A2781DB5FB540029E35D /* KNBKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E2A2771DB5FB540029E35D /* KNBKitTests.m */; };
+		E793742C73057987CE5AB8F4 /* libPods-KNBKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F1EF956CC0027794AF1CB9 /* libPods-KNBKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		258FB59817FED034020B83E0 /* Pods-KNBKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNBKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNBKitTests/Pods-KNBKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E7CC231C914798DF9EBE674 /* Pods-KNBKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNBKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNBKit/Pods-KNBKit.release.xcconfig"; sourceTree = "<group>"; };
+		2E808D3838F1F8C20FF8B957 /* Pods-KNBKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNBKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNBKit/Pods-KNBKit.debug.xcconfig"; sourceTree = "<group>"; };
+		4552B77644A3C569AC6A21CB /* libPods-KNBKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNBKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E2A2571DB5FB530029E35D /* KNBKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNBKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E2A25B1DB5FB530029E35D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57E2A25D1DB5FB530029E35D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +48,8 @@
 		57E2A2731DB5FB530029E35D /* KNBKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNBKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E2A2771DB5FB540029E35D /* KNBKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNBKitTests.m; sourceTree = "<group>"; };
 		57E2A2791DB5FB540029E35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F1EF956CC0027794AF1CB9 /* libPods-KNBKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNBKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C406A4C7328AAB552B9FD43E /* Pods-KNBKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNBKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNBKitTests/Pods-KNBKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E793742C73057987CE5AB8F4 /* libPods-KNBKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +65,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2283EB71E938AECE334F8D5D /* libPods-KNBKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2225020BF0251ABDE4D349D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E808D3838F1F8C20FF8B957 /* Pods-KNBKit.debug.xcconfig */,
+				2E7CC231C914798DF9EBE674 /* Pods-KNBKit.release.xcconfig */,
+				C406A4C7328AAB552B9FD43E /* Pods-KNBKitTests.debug.xcconfig */,
+				258FB59817FED034020B83E0 /* Pods-KNBKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		57E2A24E1DB5FB530029E35D = {
 			isa = PBXGroup;
 			children = (
 				57E2A2591DB5FB530029E35D /* KNBKit */,
 				57E2A2761DB5FB540029E35D /* KNBKitTests */,
 				57E2A2581DB5FB530029E35D /* Products */,
+				2225020BF0251ABDE4D349D0 /* Pods */,
+				BD1E891D670058756852FD5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +137,15 @@
 			path = KNBKitTests;
 			sourceTree = "<group>";
 		};
+		BD1E891D670058756852FD5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F1EF956CC0027794AF1CB9 /* libPods-KNBKit.a */,
+				4552B77644A3C569AC6A21CB /* libPods-KNBKitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E2A27C1DB5FB540029E35D /* Build configuration list for PBXNativeTarget "KNBKit" */;
 			buildPhases = (
+				2472EDA4A6DF2CE2379A7D74 /* [CP] Check Pods Manifest.lock */,
 				57E2A2531DB5FB530029E35D /* Sources */,
 				57E2A2541DB5FB530029E35D /* Frameworks */,
 				57E2A2551DB5FB530029E35D /* Resources */,
+				D86D3AF42BBE5C3A12539B70 /* [CP] Embed Pods Frameworks */,
+				88F313AAEEE875AB9CC3F491 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E2A27F1DB5FB540029E35D /* Build configuration list for PBXNativeTarget "KNBKitTests" */;
 			buildPhases = (
+				8EC94D897B8DA73DDEEF3AB5 /* [CP] Check Pods Manifest.lock */,
 				57E2A26F1DB5FB530029E35D /* Sources */,
 				57E2A2701DB5FB530029E35D /* Frameworks */,
 				57E2A2711DB5FB530029E35D /* Resources */,
+				0DB45301E5977FC801A85913 /* [CP] Embed Pods Frameworks */,
+				BB0ADA8FF42E2BECFDBD5BAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +250,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB45301E5977FC801A85913 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNBKitTests/Pods-KNBKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2472EDA4A6DF2CE2379A7D74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88F313AAEEE875AB9CC3F491 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNBKit/Pods-KNBKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC94D897B8DA73DDEEF3AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB0ADA8FF42E2BECFDBD5BAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNBKitTests/Pods-KNBKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D86D3AF42BBE5C3A12539B70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNBKit/Pods-KNBKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57E2A2531DB5FB530029E35D /* Sources */ = {
@@ -353,6 +484,7 @@
 		};
 		57E2A27D1DB5FB540029E35D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E808D3838F1F8C20FF8B957 /* Pods-KNBKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X634X4Y33S;
@@ -365,6 +497,7 @@
 		};
 		57E2A27E1DB5FB540029E35D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7CC231C914798DF9EBE674 /* Pods-KNBKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X634X4Y33S;
@@ -377,6 +510,7 @@
 		};
 		57E2A2801DB5FB540029E35D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C406A4C7328AAB552B9FD43E /* Pods-KNBKitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = X634X4Y33S;
@@ -390,6 +524,7 @@
 		};
 		57E2A2811DB5FB540029E35D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258FB59817FED034020B83E0 /* Pods-KNBKitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = X634X4Y33S;
@@ -420,6 +555,7 @@
 				57E2A27E1DB5FB540029E35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57E2A27F1DB5FB540029E35D /* Build configuration list for PBXNativeTarget "KNBKitTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +564,7 @@
 				57E2A2811DB5FB540029E35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
