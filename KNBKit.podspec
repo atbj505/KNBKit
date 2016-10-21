@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.frameworks            = 'XCTest'
   s.user_target_xcconfig  = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
   
   s.dependency "YTKNetwork"
   s.dependency "Mantle"
@@ -22,6 +21,5 @@ Pod::Spec.new do |s|
   s.dependency "libextobjc"
   s.dependency "Masonry"
   s.dependency "SDWebImage"
-  # s.dependency "LLSimpleCamera", "~> 4.2.0"
   s.dependency "LLSimpleCamera"
 end
