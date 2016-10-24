@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Robert. All rights reserved.
 //
 
-#import <YTKRequest.h>
+#import <YTKNetwork/YTKRequest.h>
 #import "KNBUserInfo.h"
 
 @interface KNBBaseRequest : YTKRequest

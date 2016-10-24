@@ -8,6 +8,7 @@
 
 #import "KNBBaseRequest.h"
 #import "KNBBaseRequestAccessory.h"
+#import "KNBPrecompile.h"
 
 @interface KNBBaseRequest ()
 

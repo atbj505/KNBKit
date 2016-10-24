@@ -8,10 +8,9 @@
 
 #import "KNBBaseRequestAccessory.h"
 #import "KNBBaseRequest.h"
-#import <LCProgressHUD.h>
+#import <LCProgressHUD/LCProgressHUD.h>
 #import "NSString+Empty.h"
-//#import "AppDelegate.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 
 @implementation KNBBaseRequestAccessory
 

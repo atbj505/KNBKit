@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <YTKBaseRequest.h>
+#import <YTKNetwork/YTKBaseRequest.h>
 
 @interface KNBBaseRequestAccessory : NSObject <YTKRequestAccessory>
 
