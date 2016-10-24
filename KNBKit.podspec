@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "atbj505" => "atbj505@hotmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/atbj505/KNBKit.git", :commit => "21f852eed15f7d2d8b82da7e297f36d96f7837bc" }
+  s.source       = { :git => "https://github.com/atbj505/KNBKit.git", :tag => "0.0.1" }
   s.source_files  = "KNBKit/KNBKit/Source/**/*.{h,m}"
   # s.public_header_files = "KNBKit/Source/**/*.h"
 
