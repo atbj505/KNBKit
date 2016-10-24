@@ -10,7 +10,7 @@
 #import "KNBBaseRequest.h"
 #import <LCProgressHUD.h>
 #import "NSString+Empty.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import <AFNetworking.h>
 
 @implementation KNBBaseRequestAccessory
