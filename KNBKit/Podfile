@@ -11,6 +11,8 @@ target 'KNBKit' do
     pod 'Masonry'
     pod 'SDWebImage'
     pod 'LLSimpleCamera'
+    pod 'LCProgressHUD'
+    pod 'MJRefresh'
 end
 
 target 'KNBKitTests' do

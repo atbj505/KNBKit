@@ -8,7 +8,6 @@
 
 #import "KNBBaseRequest.h"
 #import "KNBBaseRequestAccessory.h"
-#import "KNBMainConfigModel.h"
 
 @interface KNBBaseRequest ()
 
@@ -79,15 +78,6 @@
 
 - (NSString *)hudString {
     return _hudString ? _hudString : @"";
-}
-
-+ (NSString *)requestArticleId:(NSString *)articleId {
-    if (articleId.length == 0 || [articleId isKindOfClass:[NSNull class]]) {
-        return nil;
-    }
-    NSString *contentUrlString = [[KNBMainConfigModel shareInstance] getRequestUrlWithKey:KNB_ArticleContent];
-    NSString *urlString = [NSString stringWithFormat:@"%@%@?article_id=%@",[KNBMainConfigModel shareInstance].getBaseUrl,contentUrlString,articleId];
-    return urlString;
 }
 
 @end

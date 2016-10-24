@@ -46,12 +46,4 @@
  */
 - (NSString *)errMessage;
 
-
-/**
- *  文章内容完整url
- *
- *  @param arcId 文章Id
- */
-+ (NSString *)requestArticleId:(NSString *)articleId;
-
 @end

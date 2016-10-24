@@ -1,0 +1,19 @@
+//
+//  KNBKit.pch
+//  KNBKit
+//
+//  Created by Robert on 2016/10/24.
+//  Copyright © 2016年 Robert. All rights reserved.
+//
+
+#ifndef KNBKit_pch
+#define KNBKit_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+//宏定义
+#import "KNBPrecompile.h"
+
+//Inline方法
+#import "KNBUtilExtend.h"
+#endif /* KNBKit_pch */
