@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "atbj505" => "atbj505@hotmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/atbj505/KNBKit.git", :commit => "8791000c0369b1f2b4870122686a49c48fca96a3" }
-  s.source_files  = "KNBKit", "KNBKit/**/*.{h,m}"
-  s.public_header_files = "KNBKit/**/*.h"
+  s.source       = { :git => "https://github.com/atbj505/KNBKit.git", :commit => "8155953a887fefbe3a18bf5163bcb7dd87814cad" }
+  s.source_files  = "KNBKit/KNBKit/Source/**/*.{h,m}"
+  # s.public_header_files = "KNBKit/Source/**/*.h"
 
   s.frameworks            = 'XCTest'
   s.user_target_xcconfig  = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
