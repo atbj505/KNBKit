@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MJRefresh.h"
+#import "MJRefresh/MJRefresh.h"
 
 typedef void(^KNMJFooterLoadCompleteBlock)(NSInteger page);
 typedef void(^KNMJHeaderLoadCompleteBlock)(NSInteger page);

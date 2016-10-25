@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KNBKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Develop Kit for Dengyun"
   s.homepage     = "hhttps://github.com/atbj505/KNBKit"
   s.license      = "MIT"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.dependency "libextobjc"
   s.dependency "Masonry"
   s.dependency "SDWebImage"
-  s.dependency "LLSimpleCamera"
+  s.dependency "LLSimpleCamera", "~> 4.2.0"
   s.dependency "LCProgressHUD"
   s.dependency "MJRefresh"
 end

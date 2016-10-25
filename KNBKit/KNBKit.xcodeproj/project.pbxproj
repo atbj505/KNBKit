@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57CC2EFF1DBF336300D0ADF5 /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EDB1DBF336300D0ADF5 /* CustomIOSAlertView.m */; };
+		57CC2F001DBF336300D0ADF5 /* KNBDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EDE1DBF336300D0ADF5 /* KNBDownloadManager.m */; };
+		57CC2F011DBF336300D0ADF5 /* KNBDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EE01DBF336300D0ADF5 /* KNBDownloadModel.m */; };
+		57CC2F021DBF336300D0ADF5 /* KNBFileReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EE31DBF336300D0ADF5 /* KNBFileReaderController.m */; };
+		57CC2F031DBF336300D0ADF5 /* KNBLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EE61DBF336300D0ADF5 /* KNBLogManager.m */; };
+		57CC2F041DBF336300D0ADF5 /* KNBMakePhoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EE91DBF336300D0ADF5 /* KNBMakePhoneManager.m */; };
+		57CC2F051DBF336300D0ADF5 /* KNBNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EEC1DBF336300D0ADF5 /* KNBNetworkMonitor.m */; };
+		57CC2F061DBF336300D0ADF5 /* KNBRecorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EEF1DBF336300D0ADF5 /* KNBRecorderController.m */; };
+		57CC2F071DBF336300D0ADF5 /* KNBRecorderPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EF11DBF336300D0ADF5 /* KNBRecorderPreviewController.m */; };
+		57CC2F081DBF336300D0ADF5 /* LLSimpleCamera+FocusBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EF31DBF336300D0ADF5 /* LLSimpleCamera+FocusBox.m */; };
+		57CC2F091DBF336300D0ADF5 /* LLSimpleCameraIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EF51DBF336300D0ADF5 /* LLSimpleCameraIntercepter.m */; };
+		57CC2F0A1DBF336300D0ADF5 /* KNBScaleImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EF81DBF336300D0ADF5 /* KNBScaleImageCell.m */; };
+		57CC2F0B1DBF336300D0ADF5 /* KNBScaleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EFA1DBF336300D0ADF5 /* KNBScaleImageView.m */; };
+		57CC2F0C1DBF336300D0ADF5 /* KNBScaleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EFC1DBF336300D0ADF5 /* KNBScaleImageViewController.m */; };
+		57CC2F0D1DBF336300D0ADF5 /* KNBTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC2EFE1DBF336300D0ADF5 /* KNBTransitionAnimation.m */; };
 		57D2B1BC1DBE018C00CF176D /* KNBBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D2B1B51DBE018C00CF176D /* KNBBaseModel.m */; };
 		57D2B1BD1DBE018C00CF176D /* KNBBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D2B1B71DBE018C00CF176D /* KNBBaseRequest.m */; };
 		57D2B1BE1DBE018C00CF176D /* KNBBaseRequestAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D2B1B91DBE018C00CF176D /* KNBBaseRequestAccessory.m */; };
@@ -46,6 +61,7 @@
 		57E2A26A1DB5FB530029E35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E2A2691DB5FB530029E35D /* Assets.xcassets */; };
 		57E2A26D1DB5FB530029E35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E2A26B1DB5FB530029E35D /* LaunchScreen.storyboard */; };
 		57E2A2781DB5FB540029E35D /* KNBKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E2A2771DB5FB540029E35D /* KNBKitTests.m */; };
+		8B7F24460DF226E35432ED75 /* libPods-KNBKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB194AA13595D9BC294C89AA /* libPods-KNBKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +75,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57CC2EDA1DBF336300D0ADF5 /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
+		57CC2EDB1DBF336300D0ADF5 /* CustomIOSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOSAlertView.m; sourceTree = "<group>"; };
+		57CC2EDD1DBF336300D0ADF5 /* KNBDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBDownloadManager.h; sourceTree = "<group>"; };
+		57CC2EDE1DBF336300D0ADF5 /* KNBDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBDownloadManager.m; sourceTree = "<group>"; };
+		57CC2EDF1DBF336300D0ADF5 /* KNBDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBDownloadModel.h; sourceTree = "<group>"; };
+		57CC2EE01DBF336300D0ADF5 /* KNBDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBDownloadModel.m; sourceTree = "<group>"; };
+		57CC2EE21DBF336300D0ADF5 /* KNBFileReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBFileReaderController.h; sourceTree = "<group>"; };
+		57CC2EE31DBF336300D0ADF5 /* KNBFileReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBFileReaderController.m; sourceTree = "<group>"; };
+		57CC2EE51DBF336300D0ADF5 /* KNBLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBLogManager.h; sourceTree = "<group>"; };
+		57CC2EE61DBF336300D0ADF5 /* KNBLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBLogManager.m; sourceTree = "<group>"; };
+		57CC2EE81DBF336300D0ADF5 /* KNBMakePhoneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBMakePhoneManager.h; sourceTree = "<group>"; };
+		57CC2EE91DBF336300D0ADF5 /* KNBMakePhoneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBMakePhoneManager.m; sourceTree = "<group>"; };
+		57CC2EEB1DBF336300D0ADF5 /* KNBNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBNetworkMonitor.h; sourceTree = "<group>"; };
+		57CC2EEC1DBF336300D0ADF5 /* KNBNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBNetworkMonitor.m; sourceTree = "<group>"; };
+		57CC2EEE1DBF336300D0ADF5 /* KNBRecorderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBRecorderController.h; sourceTree = "<group>"; };
+		57CC2EEF1DBF336300D0ADF5 /* KNBRecorderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBRecorderController.m; sourceTree = "<group>"; };
+		57CC2EF01DBF336300D0ADF5 /* KNBRecorderPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBRecorderPreviewController.h; sourceTree = "<group>"; };
+		57CC2EF11DBF336300D0ADF5 /* KNBRecorderPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBRecorderPreviewController.m; sourceTree = "<group>"; };
+		57CC2EF21DBF336300D0ADF5 /* LLSimpleCamera+FocusBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+FocusBox.h"; sourceTree = "<group>"; };
+		57CC2EF31DBF336300D0ADF5 /* LLSimpleCamera+FocusBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+FocusBox.m"; sourceTree = "<group>"; };
+		57CC2EF41DBF336300D0ADF5 /* LLSimpleCameraIntercepter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCameraIntercepter.h; sourceTree = "<group>"; };
+		57CC2EF51DBF336300D0ADF5 /* LLSimpleCameraIntercepter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCameraIntercepter.m; sourceTree = "<group>"; };
+		57CC2EF71DBF336300D0ADF5 /* KNBScaleImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBScaleImageCell.h; sourceTree = "<group>"; };
+		57CC2EF81DBF336300D0ADF5 /* KNBScaleImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBScaleImageCell.m; sourceTree = "<group>"; };
+		57CC2EF91DBF336300D0ADF5 /* KNBScaleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBScaleImageView.h; sourceTree = "<group>"; };
+		57CC2EFA1DBF336300D0ADF5 /* KNBScaleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBScaleImageView.m; sourceTree = "<group>"; };
+		57CC2EFB1DBF336300D0ADF5 /* KNBScaleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBScaleImageViewController.h; sourceTree = "<group>"; };
+		57CC2EFC1DBF336300D0ADF5 /* KNBScaleImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBScaleImageViewController.m; sourceTree = "<group>"; };
+		57CC2EFD1DBF336300D0ADF5 /* KNBTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBTransitionAnimation.h; sourceTree = "<group>"; };
+		57CC2EFE1DBF336300D0ADF5 /* KNBTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBTransitionAnimation.m; sourceTree = "<group>"; };
 		57D2B1B41DBE018C00CF176D /* KNBBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNBBaseModel.h; path = Source/KNBBase/KNBBaseModel.h; sourceTree = "<group>"; };
 		57D2B1B51DBE018C00CF176D /* KNBBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNBBaseModel.m; path = Source/KNBBase/KNBBaseModel.m; sourceTree = "<group>"; };
 		57D2B1B61DBE018C00CF176D /* KNBBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNBBaseRequest.h; path = Source/KNBBase/KNBBaseRequest.h; sourceTree = "<group>"; };
@@ -140,6 +186,9 @@
 		57E2A2731DB5FB530029E35D /* KNBKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNBKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E2A2771DB5FB540029E35D /* KNBKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNBKitTests.m; sourceTree = "<group>"; };
 		57E2A2791DB5FB540029E35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF94A7D62D8F233B415ECD8 /* Pods-KNBKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNBKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNBKit/Pods-KNBKit.debug.xcconfig"; sourceTree = "<group>"; };
+		AB194AA13595D9BC294C89AA /* libPods-KNBKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNBKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A31FF57CC434754A6DC8B7 /* Pods-KNBKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNBKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNBKit/Pods-KNBKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7F24460DF226E35432ED75 /* libPods-KNBKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +210,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57CC2ED91DBF336300D0ADF5 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				57CC2EDA1DBF336300D0ADF5 /* CustomIOSAlertView.h */,
+				57CC2EDB1DBF336300D0ADF5 /* CustomIOSAlertView.m */,
+			);
+			name = CustomAlert;
+			path = Source/CustomAlert;
+			sourceTree = "<group>";
+		};
+		57CC2EDC1DBF336300D0ADF5 /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				57CC2EDD1DBF336300D0ADF5 /* KNBDownloadManager.h */,
+				57CC2EDE1DBF336300D0ADF5 /* KNBDownloadManager.m */,
+				57CC2EDF1DBF336300D0ADF5 /* KNBDownloadModel.h */,
+				57CC2EE01DBF336300D0ADF5 /* KNBDownloadModel.m */,
+			);
+			name = DownloadManager;
+			path = Source/DownloadManager;
+			sourceTree = "<group>";
+		};
+		57CC2EE11DBF336300D0ADF5 /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				57CC2EE21DBF336300D0ADF5 /* KNBFileReaderController.h */,
+				57CC2EE31DBF336300D0ADF5 /* KNBFileReaderController.m */,
+			);
+			name = FileReader;
+			path = Source/FileReader;
+			sourceTree = "<group>";
+		};
+		57CC2EE41DBF336300D0ADF5 /* LogManager */ = {
+			isa = PBXGroup;
+			children = (
+				57CC2EE51DBF336300D0ADF5 /* KNBLogManager.h */,
+				57CC2EE61DBF336300D0ADF5 /* KNBLogManager.m */,
+			);
+			name = LogManager;
+			path = Source/LogManager;
+			sourceTree = "<group>";
+		};
+		57CC2EE71DBF336300D0ADF5 /* MakePhone */ = {
+			isa = PBXGroup;
+			children = (
+				57CC2EE81DBF336300D0ADF5 /* KNBMakePhoneManager.h */,
+				57CC2EE91DBF336300D0ADF5 /* KNBMakePhoneManager.m */,
+			);
+			name = MakePhone;
+			path = Source/MakePhone;
+			sourceTree = "<group>";
+		};
+		57CC2EEA1DBF336300D0ADF5 /* NetworkMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				57CC2EEB1DBF336300D0ADF5 /* KNBNetworkMonitor.h */,
+				57CC2EEC1DBF336300D0ADF5 /* KNBNetworkMonitor.m */,
+			);
+			name = NetworkMonitor;
+			path = Source/NetworkMonitor;
+			sourceTree = "<group>";
+		};
+		57CC2EED1DBF336300D0ADF5 /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				57CC2EEE1DBF336300D0ADF5 /* KNBRecorderController.h */,
+				57CC2EEF1DBF336300D0ADF5 /* KNBRecorderController.m */,
+				57CC2EF01DBF336300D0ADF5 /* KNBRecorderPreviewController.h */,
+				57CC2EF11DBF336300D0ADF5 /* KNBRecorderPreviewController.m */,
+				57CC2EF21DBF336300D0ADF5 /* LLSimpleCamera+FocusBox.h */,
+				57CC2EF31DBF336300D0ADF5 /* LLSimpleCamera+FocusBox.m */,
+				57CC2EF41DBF336300D0ADF5 /* LLSimpleCameraIntercepter.h */,
+				57CC2EF51DBF336300D0ADF5 /* LLSimpleCameraIntercepter.m */,
+			);
+			name = Recorder;
+			path = Source/Recorder;
+			sourceTree = "<group>";
+		};
+		57CC2EF61DBF336300D0ADF5 /* ScaleImageView */ = {
+			isa = PBXGroup;
+			children = (
+				57CC2EF71DBF336300D0ADF5 /* KNBScaleImageCell.h */,
+				57CC2EF81DBF336300D0ADF5 /* KNBScaleImageCell.m */,
+				57CC2EF91DBF336300D0ADF5 /* KNBScaleImageView.h */,
+				57CC2EFA1DBF336300D0ADF5 /* KNBScaleImageView.m */,
+				57CC2EFB1DBF336300D0ADF5 /* KNBScaleImageViewController.h */,
+				57CC2EFC1DBF336300D0ADF5 /* KNBScaleImageViewController.m */,
+				57CC2EFD1DBF336300D0ADF5 /* KNBTransitionAnimation.h */,
+				57CC2EFE1DBF336300D0ADF5 /* KNBTransitionAnimation.m */,
+			);
+			name = ScaleImageView;
+			path = Source/ScaleImageView;
+			sourceTree = "<group>";
+		};
 		57D2B1B21DBE017A00CF176D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				57CC2ED91DBF336300D0ADF5 /* CustomAlert */,
+				57CC2EDC1DBF336300D0ADF5 /* DownloadManager */,
+				57CC2EE11DBF336300D0ADF5 /* FileReader */,
+				57CC2EE41DBF336300D0ADF5 /* LogManager */,
+				57CC2EE71DBF336300D0ADF5 /* MakePhone */,
+				57CC2EEA1DBF336300D0ADF5 /* NetworkMonitor */,
+				57CC2EED1DBF336300D0ADF5 /* Recorder */,
+				57CC2EF61DBF336300D0ADF5 /* ScaleImageView */,
 				57D2B1D41DBE04E500CF176D /* Category */,
 				57D2B1C71DBE035200CF176D /* KNBPrecompile.h */,
 				57D2B1C81DBE035200CF176D /* KNBUtilExtend.h */,
@@ -389,6 +541,8 @@
 				57E2A2591DB5FB530029E35D /* KNBKit */,
 				57E2A2761DB5FB540029E35D /* KNBKitTests */,
 				57E2A2581DB5FB530029E35D /* Products */,
+				639334D9CB550C2FF5BF4513 /* Pods */,
+				E9C9D815E0EF60263BE2C50E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -437,6 +591,23 @@
 			path = KNBKitTests;
 			sourceTree = "<group>";
 		};
+		639334D9CB550C2FF5BF4513 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF94A7D62D8F233B415ECD8 /* Pods-KNBKit.debug.xcconfig */,
+				B9A31FF57CC434754A6DC8B7 /* Pods-KNBKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9C9D815E0EF60263BE2C50E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB194AA13595D9BC294C89AA /* libPods-KNBKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -444,9 +615,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E2A27C1DB5FB540029E35D /* Build configuration list for PBXNativeTarget "KNBKit" */;
 			buildPhases = (
+				80B7DB9A64C5057A5B2DEFB1 /* [CP] Check Pods Manifest.lock */,
 				57E2A2531DB5FB530029E35D /* Sources */,
 				57E2A2541DB5FB530029E35D /* Frameworks */,
 				57E2A2551DB5FB530029E35D /* Resources */,
+				7D555CDD0993723D6F2C6821 /* [CP] Embed Pods Frameworks */,
+				B941BD6D5CE6B4B6D177EA93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -461,12 +635,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E2A27F1DB5FB540029E35D /* Build configuration list for PBXNativeTarget "KNBKitTests" */;
 			buildPhases = (
-				8EC94D897B8DA73DDEEF3AB5 /* [CP] Check Pods Manifest.lock */,
 				57E2A26F1DB5FB530029E35D /* Sources */,
 				57E2A2701DB5FB530029E35D /* Frameworks */,
 				57E2A2711DB5FB530029E35D /* Resources */,
-				0DB45301E5977FC801A85913 /* [CP] Embed Pods Frameworks */,
-				BB0ADA8FF42E2BECFDBD5BAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -540,7 +711,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DB45301E5977FC801A85913 /* [CP] Embed Pods Frameworks */ = {
+		7D555CDD0993723D6F2C6821 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -552,10 +723,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNBKitTests/Pods-KNBKitTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNBKit/Pods-KNBKit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8EC94D897B8DA73DDEEF3AB5 /* [CP] Check Pods Manifest.lock */ = {
+		80B7DB9A64C5057A5B2DEFB1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -570,7 +741,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		BB0ADA8FF42E2BECFDBD5BAC /* [CP] Copy Pods Resources */ = {
+		B941BD6D5CE6B4B6D177EA93 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -582,7 +753,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNBKitTests/Pods-KNBKitTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNBKit/Pods-KNBKit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -594,28 +765,43 @@
 			files = (
 				57D2B1BD1DBE018C00CF176D /* KNBBaseRequest.m in Sources */,
 				57E2A2621DB5FB530029E35D /* ViewController.m in Sources */,
+				57CC2F031DBF336300D0ADF5 /* KNBLogManager.m in Sources */,
 				57D2B2221DBE051D00CF176D /* UIImage+WaterMark.m in Sources */,
+				57CC2F011DBF336300D0ADF5 /* KNBDownloadModel.m in Sources */,
+				57CC2F051DBF336300D0ADF5 /* KNBNetworkMonitor.m in Sources */,
+				57CC2F001DBF336300D0ADF5 /* KNBDownloadManager.m in Sources */,
 				57D2B2281DBE051D00CF176D /* UIView+Frame.m in Sources */,
 				57D2B2211DBE051D00CF176D /* UIImage+VideoPreview.m in Sources */,
 				57E2A25F1DB5FB530029E35D /* AppDelegate.m in Sources */,
 				57E2A2681DB5FB530029E35D /* KNBKit.xcdatamodeld in Sources */,
 				57D2B2171DBE051C00CF176D /* NSTimer+EOCBlocksSupport.m in Sources */,
+				57CC2F021DBF336300D0ADF5 /* KNBFileReaderController.m in Sources */,
+				57CC2EFF1DBF336300D0ADF5 /* CustomIOSAlertView.m in Sources */,
 				57D2B1BC1DBE018C00CF176D /* KNBBaseModel.m in Sources */,
+				57CC2F0D1DBF336300D0ADF5 /* KNBTransitionAnimation.m in Sources */,
+				57CC2F0B1DBF336300D0ADF5 /* KNBScaleImageView.m in Sources */,
 				57D2B1BE1DBE018C00CF176D /* KNBBaseRequestAccessory.m in Sources */,
 				57D2B2181DBE051C00CF176D /* NSURL+Video.m in Sources */,
 				57D2B2261DBE051D00CF176D /* UINavigationController+StackManager.m in Sources */,
 				57D2B2251DBE051D00CF176D /* UILabel+AutoSize.m in Sources */,
+				57CC2F0A1DBF336300D0ADF5 /* KNBScaleImageCell.m in Sources */,
+				57CC2F081DBF336300D0ADF5 /* LLSimpleCamera+FocusBox.m in Sources */,
 				57D2B2111DBE051C00CF176D /* NSDate+BTAddition.m in Sources */,
+				57CC2F071DBF336300D0ADF5 /* KNBRecorderPreviewController.m in Sources */,
 				57D2B21C1DBE051D00CF176D /* UIColor+Hex.m in Sources */,
 				57D2B2201DBE051D00CF176D /* UIImage+RoundedCorner.m in Sources */,
+				57CC2F0C1DBF336300D0ADF5 /* KNBScaleImageViewController.m in Sources */,
 				57D2B2191DBE051C00CF176D /* UIButton+ArrayButton.m in Sources */,
+				57CC2F061DBF336300D0ADF5 /* KNBRecorderController.m in Sources */,
 				57D2B2271DBE051D00CF176D /* UITextField+Shake.m in Sources */,
 				57D2B1D21DBE04CC00CF176D /* EXTRuntimeExtensions.m in Sources */,
+				57CC2F041DBF336300D0ADF5 /* KNBMakePhoneManager.m in Sources */,
 				57D2B2151DBE051C00CF176D /* NSString+Size.m in Sources */,
 				57D2B21E1DBE051D00CF176D /* UIImage+Alpha.m in Sources */,
 				57D2B2121DBE051C00CF176D /* NSString+Contain.m in Sources */,
 				57D2B21B1DBE051C00CF176D /* UIButton+Indicator.m in Sources */,
 				57D2B1D31DBE04CC00CF176D /* MTLManagedObjectAdapter.m in Sources */,
+				57CC2F091DBF336300D0ADF5 /* LLSimpleCameraIntercepter.m in Sources */,
 				57D2B2231DBE051D00CF176D /* UIImageView+Addition.m in Sources */,
 				57E2A25C1DB5FB530029E35D /* main.m in Sources */,
 				57D2B2131DBE051C00CF176D /* NSString+Empty.m in Sources */,
@@ -758,6 +944,7 @@
 		};
 		57E2A27D1DB5FB540029E35D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF94A7D62D8F233B415ECD8 /* Pods-KNBKit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -774,6 +961,7 @@
 		};
 		57E2A27E1DB5FB540029E35D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A31FF57CC434754A6DC8B7 /* Pods-KNBKit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

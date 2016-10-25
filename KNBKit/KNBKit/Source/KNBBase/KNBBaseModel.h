@@ -75,7 +75,7 @@
 /**
  *  设置用户头像
  *
- *  @param imgView
+ *  @param imgView 图片
  *  @param str     地址
  */
 + (void)headImageView:(UIImageView *)imgView urlString:(NSString *)str;

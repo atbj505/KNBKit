@@ -7,6 +7,7 @@
 //
 
 #import "KNBBaseViewController.h"
+#import "KNBPrecompile.h"
 
 @interface KNBBaseViewController ()
 

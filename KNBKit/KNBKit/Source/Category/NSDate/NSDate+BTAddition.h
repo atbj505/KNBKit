@@ -123,7 +123,7 @@
 /**
  *  把时间转换为 分钟和秒
  *
- *  @param times 秒
+ *  @param totalSeconds 秒
  *
  *  @return 00:11:40
  */
@@ -134,7 +134,7 @@
  *
  *  @param time 要比较的时间
  *
- *  @return
+ *  @return 剩余时间
  */
 + (NSString *)getResidualTime:(NSString *)time;
 

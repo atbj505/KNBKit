@@ -11,6 +11,7 @@
 #import <LCProgressHUD/LCProgressHUD.h>
 #import "NSString+Empty.h"
 #import <AFNetworking/AFNetworking.h>
+#import "KNBUtilExtend.h"
 
 @implementation KNBBaseRequestAccessory
 

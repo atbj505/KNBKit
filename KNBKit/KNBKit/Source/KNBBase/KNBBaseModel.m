@@ -8,9 +8,9 @@
 
 #import "KNBBaseModel.h"
 #import "NSString+Contain.h"
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "NSDate+BTAddition.h"
-#import <SDWebImageManager.h>
+#import <SDWebImage/SDWebImageManager.h>
 
 @implementation KNBBaseModel
 
