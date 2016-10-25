@@ -10,7 +10,7 @@
 #import "KNBBaseRequest.h"
 #import <LCProgressHUD/LCProgressHUD.h>
 #import "NSString+Empty.h"
-#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFNetworkReachabilityManager.h>
 #import "KNBUtilExtend.h"
 
 @implementation KNBBaseRequestAccessory

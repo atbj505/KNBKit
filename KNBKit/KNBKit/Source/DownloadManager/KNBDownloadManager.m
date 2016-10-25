@@ -9,6 +9,7 @@
 #import "KNBDownloadManager.h"
 #import "KNBDownloadModel.h"
 #import "NSString+Empty.h"
+#import "KNBPrecompile.h"
 
 // 缓存主目录
 #define KNBDownloadCachesDirectory [KNB_PATH_CACHE stringByAppendingPathComponent:@"KNBDownload"]

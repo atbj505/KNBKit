@@ -7,8 +7,8 @@
 //
 
 #import "KNBFileReaderController.h"
-#import "NJKWebViewProgress.h"
-#import "NJKWebViewProgressView.h"
+#import <NJKWebViewProgress/NJKWebViewProgress.h>
+#import <NJKWebViewProgress/NJKWebViewProgressView.h>
 #import "UIColor+Hex.h"
 #import "UIImage+WaterMark.h"
 #import "KNBUserInfo.h"
