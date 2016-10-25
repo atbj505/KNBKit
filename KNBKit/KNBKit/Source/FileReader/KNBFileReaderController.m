@@ -7,12 +7,12 @@
 //
 
 #import "KNBFileReaderController.h"
-#import <NJKWebViewProgress/NJKWebViewProgress.h>
-#import <NJKWebViewProgress/NJKWebViewProgressView.h>
+#import <NJKWebViewProgress.h>
+#import <NJKWebViewProgressView.h>
 #import "UIColor+Hex.h"
 #import "UIImage+WaterMark.h"
 #import "KNBUserInfo.h"
-#import <AFNetworkReachabilityManager.h>
+#import <AFNetworking/AFNetworkReachabilityManager.h>
 #import "UIView+Frame.h"
 
 @interface KNBFileReaderController() <UIWebViewDelegate, NJKWebViewProgressDelegate, UIScrollViewDelegate>
