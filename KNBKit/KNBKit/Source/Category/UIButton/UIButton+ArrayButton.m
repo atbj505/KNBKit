@@ -7,6 +7,7 @@
 //
 
 #import "UIButton+ArrayButton.h"
+#import "KNBPrecompile.h"
 
 static const int TextFount = 9;
 static const int ButtonHeight = 18;
