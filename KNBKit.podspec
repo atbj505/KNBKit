@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KNBKit"
-  s.version      = "0.0.13"
+  s.version      = "0.0.15"
   s.summary      = "Develop Kit for Dengyun"
   s.homepage     = "hhttps://github.com/atbj505/KNBKit"
   s.license      = "MIT"

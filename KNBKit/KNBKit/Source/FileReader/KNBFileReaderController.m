@@ -15,6 +15,7 @@
 #import <AFNetworking/AFNetworkReachabilityManager.h>
 #import "UIView+Frame.h"
 #import "KNBPrecompile.h"
+#import "KNBUtilExtend.h"
 
 @interface KNBFileReaderController() <UIWebViewDelegate, NJKWebViewProgressDelegate, UIScrollViewDelegate>
 
