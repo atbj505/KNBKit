@@ -8,7 +8,7 @@
 
 #import <objc/runtime.h>
 #import <Mantle/Mantle.h>
-#import <EXTScope.h>
+#import <Mantle/EXTScope.h>
 #import "EXTRuntimeExtensions.h"
 #import "MTLManagedObjectAdapter.h"
 
