@@ -12,6 +12,8 @@
 #import "KNBTransitionAnimation.h"
 #import "UIView+Frame.h"
 #import <Masonry/Masonry.h>
+#import "KNBPrecompile.h"
+#import "KNBUtilExtend.h"
 
 static NSString * const KNBPublishContentItemType = @"KNBPublishContentItemType";
 static NSString * const KNBPublishContentItemName = @"KNBPublishContentItemName";

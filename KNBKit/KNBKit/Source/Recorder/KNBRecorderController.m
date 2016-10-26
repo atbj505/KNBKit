@@ -17,6 +17,7 @@
 #import <CoreMotion/CoreMotion.h>
 #import "UIView+Frame.h"
 #import <Masonry/Masonry.h>
+#import "KNBPrecompile.h"
 
 static NSString *const KNBRecordCancel = @"camera-cancel";
 static NSString *const KNBRecordSwitch = @"camera-switch";
