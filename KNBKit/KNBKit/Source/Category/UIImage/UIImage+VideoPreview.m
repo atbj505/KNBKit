@@ -9,6 +9,7 @@
 #import "UIImage+VideoPreview.h"
 #import <AVFoundation/AVFoundation.h>
 #import "UIImage+fixOrientation.h"
+#import "KNBPrecompile.h"
 
 @implementation UIImage (VideoPreview)
 

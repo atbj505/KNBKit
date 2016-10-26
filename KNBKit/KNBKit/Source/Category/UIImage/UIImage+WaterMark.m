@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+WaterMark.h"
+#import "KNBPrecompile.h"
 
 const int wLeft = 50;
 const int wTop = 50;
