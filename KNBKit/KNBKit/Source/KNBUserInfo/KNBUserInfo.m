@@ -7,6 +7,7 @@
 //
 
 #import "KNBUserInfo.h"
+#import "KNBPrecompile.h"
 
 #define KNB_SAVE_LOGIN_VERSION @"KNB_SAVE_LOGIN_VERSION"
 
