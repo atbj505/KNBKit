@@ -8,6 +8,7 @@
 
 #import "NSURL+Video.h"
 #import "NSDate+BTAddition.h"
+#import "KNBPrecompile.h"
 
 @implementation NSURL (Video)
 
