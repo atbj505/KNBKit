@@ -55,7 +55,14 @@ static NSString *const KNB_MTMYUSER_ID = @"mtmyUserId";
 
 @implementation KNBUserInfo
 
-KNB_DEFINE_SINGLETON_FOR_CLASS(KNBUserInfo)
++ (KNBUserInfo *)shareInstance {
+    static KNBUserInfo *instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[self alloc] init];
+    });
+    return instance;
+}
 
 - (BOOL)isFirstLogin {
     NSString *success = [[NSUserDefaults standardUserDefaults] objectForKey:KNB_USER_LOGINSUCCESS];

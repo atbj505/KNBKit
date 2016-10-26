@@ -12,7 +12,14 @@
 
 @implementation LLSimpleCameraIntercepter
 
-KNB_DEFINE_SINGLETON_FOR_CLASS(LLSimpleCameraIntercepter);
++ (LLSimpleCameraIntercepter *)shareInstance {
+    static LLSimpleCameraIntercepter *instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[self alloc] init];
+    });
+    return instance;
+}
 
 + (void)load {
     [super load];
