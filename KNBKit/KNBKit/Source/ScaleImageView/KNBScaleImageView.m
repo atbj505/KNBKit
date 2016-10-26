@@ -14,6 +14,8 @@
 #import <LCProgressHUD/LCProgressHUD.h>
 #import <Masonry/Masonry.h>
 #import "UIView+Frame.h"
+#import "KNBUtilExtend.h"
+#import "KNBPrecompile.h"
 
 static const CGFloat KNBMinimumZoomScale = 0.5;
 

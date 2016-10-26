@@ -14,6 +14,7 @@
 #import "UIImage+VideoPreview.h"
 #import <LLSimpleCamera/UIImage+fixOrientation.h>
 #import <Masonry/Masonry.h>
+#import "KNBPrecompile.h"
 
 static const CGFloat KNBRecordPreviewImageWidth = 140;
 
