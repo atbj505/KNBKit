@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KNBKit"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "Develop Kit for Dengyun"
   s.homepage     = "hhttps://github.com/atbj505/KNBKit"
   s.license      = "MIT"
@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
   s.dependency "LLSimpleCamera", "~> 4.2.0"
   s.dependency "LCProgressHUD"
   s.dependency "MJRefresh"
+  s.dependency "NJKWebViewProgress"
 end

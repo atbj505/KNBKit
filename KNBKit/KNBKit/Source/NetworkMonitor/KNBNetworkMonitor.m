@@ -10,6 +10,8 @@
 #import "AFNetworkReachabilityManager.h"
 #import "CustomIOSAlertView.h"
 #import "NSString+Size.h"
+#import "KNBPrecompile.h"
+#import "KNBUtilExtend.h"
 
 @interface KNBNetworkMonitor ()
 

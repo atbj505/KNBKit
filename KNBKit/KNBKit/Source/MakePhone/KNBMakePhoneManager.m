@@ -8,6 +8,7 @@
 
 #import "KNBMakePhoneManager.h"
 #import "NSString+Empty.h"
+#import "KNBUtilExtend.h"
 
 @interface KNBMakePhoneManager ()<UIAlertViewDelegate>
 

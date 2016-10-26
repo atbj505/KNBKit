@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "KNBRecorderController.h"
+#import "KNBUtilExtend.h"
 
 @protocol KNBRecorderPreviewControllerDelegate <NSObject>
 
